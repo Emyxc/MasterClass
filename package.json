@@ -1,0 +1,18 @@
+{
+  "name": "cypress-install",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+"open:staging": "cypress open --config-file staging.config.js",
+"run:staging": "cypress run --config-file staging.config.js",
+"test:smoke": "cypress run --browser chrome --headless --config-file staging.config.js --spec 'cypress/e2e/**/*.smoke.cy.ts'",
+"test:regression": "cypress run --browser chrome --headless --config-file staging.config.js --spec 'cypress/e2e/**/*.ts'"
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  }
+}

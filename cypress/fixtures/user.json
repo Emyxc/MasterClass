@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "user": {
+    "id": 1,
+    "first_name": "Bogdan",
+    "last_name": "Roșu",
+    "role": "volunteer",
+    "description": "Bogdănel băiat de haur",
+    "rating": 4.666666666666667,
+    "address": {
+      "id": 1,
+      "street_name": "Calea Burdujeni",
+      "city": "Suceava",
+      "county": "Județul Suceava",
+      "postal_code": "727475",
+      "coordinates": "47.67184, 26.281218",
+      "details": "et 3, ap 12"
+    }
+  },
+  "message": "E bine să mai lași câteva cuvinte din când în când"
+}
