@@ -1,5 +1,7 @@
+import {devinoVoluntar} from '../../support/pages/index'
 describe('empty spec', () => {
   it('passes', () => {
-    cy.visit('/dashboard')
+    cy.visit('/')
+    devinoVoluntar.open();
   })
 })

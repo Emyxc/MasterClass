@@ -1,5 +1,5 @@
 import Page from './page'
-class DevinoVoluntar {
+class DevinoVoluntar extends Page {
     
 
 
@@ -11,4 +11,4 @@ class DevinoVoluntar {
 
 }
 
-export const DevinoVoluntar = new DevinoVoluntar()
+export const devinoVoluntar = new DevinoVoluntar()
