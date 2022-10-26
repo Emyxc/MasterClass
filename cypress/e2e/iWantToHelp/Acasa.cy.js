@@ -1,6 +1,6 @@
-import {homePage} from '../../support/pages/index'
+import {acasa} from '../../support/pages/index'
 import * as linkRoutes from '../../support/utils/LinkRoutes'
-describe('HomePage', () => {
+describe('Acasa', () => {
 
   //Create the hook for login
   after(() => {
@@ -8,7 +8,7 @@ describe('HomePage', () => {
   })
 
   it('Visit the homepage', () => {
-    cy.visit('/')
+    acasa.open()
     cy.navigationMenu(linkRoutes.acasa)
     cy.url().should('eq', 'https://iwanttohelp-vue.herokuapp.com/')
     //cy.intercept('https://iwanttohelp.herokuapp.com/public/api/v1/testimonials').as('testimonials')
@@ -16,6 +16,6 @@ describe('HomePage', () => {
   })
 
   it('Verify the card content', () =>{
-    homePage.firstCard().should('contain', 'Alimente')
+    acasa.firstCard().should('contain', 'Alimente')
   })
 })

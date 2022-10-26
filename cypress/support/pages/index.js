@@ -1,4 +1,4 @@
-import { homePage } from "./HomePage"
-import { profilePage } from "./ProfilePage"
+import { acasa } from "./Acasa"
+import { devinoVoluntar } from "./DevinoVoluntar"
 
-export { homePage, profilePage }
+export { acasa, devinoVoluntar }
