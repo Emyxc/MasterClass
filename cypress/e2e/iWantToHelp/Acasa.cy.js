@@ -16,6 +16,6 @@ describe('Acasa', () => {
   })
 
   it('Verify the card content', () =>{
-    //acasa.firstCard().should('contain', 'Alimente')
+    acasa.firstCard().should('contain', 'Alimente')
   })
 })
