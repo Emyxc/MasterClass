@@ -1,5 +1,6 @@
 import Page from './page'
 class Acasa extends Page {
+  
   //selectors
   firstCard() {
     return cy.get(".top-section>div:nth-child(1)");
